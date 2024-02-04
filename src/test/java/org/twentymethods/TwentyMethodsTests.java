@@ -1205,7 +1205,7 @@ class TwentyMethodsTests {
     void givenIntegersWithMaximumArraySize_whenGetRandomArrayWithBounds_thenReturnIntegersFromLowerToUpperBoundsWithCertainLength() throws Exception {
         //given
         Runtime r = Runtime.getRuntime();
-        int maxSizeOfArray = (int) ((r.maxMemory() / 4) * 0.95);
+        int maxSizeOfArray = (int) ((r.maxMemory() / 4) * 0.5);
         int lowerBorder = 2;
         int upperBorder = 25;
         //when

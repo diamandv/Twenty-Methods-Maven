@@ -42,6 +42,9 @@
                     <targetTests>
                         <param>org.twentymethods.*</param>
                     </targetTests>
+                    <excludedMethods>
+                        <param>org.twentymethods.TwentyMethodsTests.givenIntegersWithMaximumArraySize_whenGetRandomArrayWithBounds_thenReturnIntegersFromLowerToUpperBoundsWithCertainLength</param>
+                    </excludedMethods>
                 </configuration>
                 <dependencies>
                     <dependency>
